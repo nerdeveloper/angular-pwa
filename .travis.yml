@@ -1,29 +1,44 @@
-sudo: required
-dist: trusty
-addons:
-  chrome: stable
-language: node_js
+# sudo: required
+# dist: trusty
+# addons:
+#   chrome: stable
+# language: node_js
+# node_js:
+#   - "9"
+# cache:
+#   directories:
+#     - node_modules
+# branches:
+#   only:
+#     - master
+# notifications:
+#   email: true
+
+# before_script:
+#   - npm prune
+#   - "sh -e /etc/init.d/xvfb start"
+#   - sleep 3 # give xvfb some time to start
+
+  
+# script:
+#   - xvfb-run npm run e2e
+#    - npm run lint
+#    - npm run test
+# after_success:
+#   - npm run build
+  
+  	language: node_js
 node_js:
-  - "9"
+- "8"
+dist: trusty
+sudo: false
 cache:
-  directories:
-    - node_modules
-branches:
-  only:
-    - master
-notifications:
-  email: true
-
-before_script:
-  - npm prune
-  - "sh -e /etc/init.d/xvfb start"
-  - sleep 3 # give xvfb some time to start
-
-  
+directories:
+- node_modules
+addons:
+chrome: stable
 script:
-  - xvfb-run npm run e2e
-   - npm run lint
-   - npm run test
-after_success:
-  - npm run build
-  
+- npm run lint
+- npm run test:headless
+- npm run build
+- xvfb-run npm run e2e
