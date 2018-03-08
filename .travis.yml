@@ -41,13 +41,16 @@ branches:
   only:
     - master
     - /^greenkeeper/.*$/
+
 notifications:
   email: false 
 
 before_script:
   - npm prune
-
+  - npm uninstall webpack
+  - npm remove webpack
+  - npm install webpack@3.11.0 --save
 script:
-- npm run lint
+# - npm run lint
 - npm run build
 - xvfb-run npm run e2e
