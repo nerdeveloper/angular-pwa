@@ -1,6 +1,7 @@
 # Mycoffeeapp
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/nerdeveloper/angular-pwa.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/nerdeveloper/angular-pwa.svg?branch=master)](https://travis-ci.org/nerdeveloper/angular-pwa)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
 
