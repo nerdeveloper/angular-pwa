@@ -27,15 +27,15 @@
 # after_success:
 #   - npm run build
   
-    language: node_js
-    
-node_js:
-- "8"
-dist: trusty
-
 sudo: false
+dist: trusty
+addons:
+  chrome: stable
+language: node_js
+node_js:
+  - "9"
 cache:
-directories:
+  directories:
     - node_modules
 branches:
   only:
@@ -43,11 +43,6 @@ branches:
     - /^greenkeeper/.*$/
 notifications:
   email: false 
-
-directories:
-- node_modules
-addons:
-chrome: stable
 
 before_script:
   - npm prune
