@@ -33,7 +33,7 @@ addons:
   chrome: stable
 language: node_js
 node_js:
-  - "9"
+  - "8"
 cache:
   directories:
     - node_modules
