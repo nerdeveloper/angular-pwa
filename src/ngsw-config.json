@@ -17,7 +17,7 @@
         {
             "name": "api-freshness",
             "urls": [
-                "http://localhost:3000/coffees"
+                "https://pwadb.azurewebsites.net/coffees"
             ],
             "cacheConfig": {
                 "maxSize": 100,

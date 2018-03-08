@@ -7,7 +7,7 @@ import{Http} from '@angular/http';
 export class DataService {
 
   constructor(private http: Http) { }
-  public endpoint = "http://localhost:3000/";
+  public endpoint = "https://pwadb.azurewebsites.net/";
   get(coffeeId: string, callback){
     this.http.get(`${this.endpoint}coffees/${coffeeId}`).subscribe(response =>{
       callback(response.json());
