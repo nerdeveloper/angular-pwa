@@ -1,0 +1,69 @@
+{
+    "routing": {
+        "index": "/index.html",
+        "routes": {
+            "/": {
+                "match": "exact"
+            },
+            "/coffee": {
+                "match": "prefix"
+            }
+        }
+    },
+    "static.ignore": [
+        "^\/icons\/.*$"
+    ],
+    "dataGroups": [
+        {
+            "name": "api-freshness",
+            "urls": [
+                "http://localhost:3000/coffees"
+            ],
+            "cacheConfig": {
+                "maxSize": 100,
+                "maxAge": "3d",
+                "timeout": "1m",
+                "strategy": "freshness"
+            }
+        }
+    ],
+    "index": "/index.html",
+    "assetGroups": [
+        {
+            "name": "app",
+            "installMode": "prefetch",
+            "resources": {
+                "files": [
+                    "/favicon.ico",
+                    "/index.html",
+                    "/manifest.json",
+                    "!/ngsw-worker.js"
+                ],
+                "versionedFiles": [
+                    "/*.bundle.css",
+                    "/*.bundle.js",
+                    "/*.chunk.js"
+                ],
+                "urls": [
+                    "https://fonts.gstatic.com/s/materialicons/v36/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2",
+                    "https://fonts.googleapis.com/icon?family=Material+Icons"
+                ]
+            }
+        },
+        {
+            "name": "assets",
+            "installMode": "lazy",
+            "updateMode": "prefetch",
+            "resources": {
+                "files": [
+                    "/assets/**"
+                ]
+            }
+        }
+    
+    ],
+    "push": {
+    "showNotifications": true,
+    "backgroundOnly": false
+  }
+}

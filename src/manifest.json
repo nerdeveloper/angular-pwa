@@ -1,0 +1,15 @@
+{
+"name": "Coffee App - Give your customers something to talk about",
+"start_url": "/",
+"orientation": "any",
+"scope": "/",
+"display": "standalone",
+
+"short_name": "Coffee App",
+"theme_color": "#472D21",
+"background_color": "#C0B764",
+"icons":[
+    
+]
+
+}
