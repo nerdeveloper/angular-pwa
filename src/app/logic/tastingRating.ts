@@ -5,5 +5,4 @@ export class TastingRating {
     intesity: number;
     sweetness: number;
     aftertaste: number;
-
-}
+    }

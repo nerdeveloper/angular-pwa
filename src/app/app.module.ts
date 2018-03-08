@@ -11,8 +11,9 @@ import { MatButtonModule, MatCardModule, MatSlideToggleModule, MatIconModule, Ma
 import { ListComponent } from './list/list.component';
 import { CoffeeComponent } from './coffee/coffee.component';
 import { Routes, RouterModule } from '@angular/router';
-import { FormsModule } from "@angular/forms";
-import { HttpModule } from "@angular/http";
+import { FormsModule } from '@angular/forms';
+// import { HttpModule } from '@angular/http';
+import { HttpClientModule } from '@angular/common/http';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 
@@ -29,8 +30,8 @@ const routes: Routes = [
     CoffeeComponent,
   ],
   imports: [
-    ServiceWorkerModule.register('/ngsw-worker.js',{enabled: environment.production}),
-    FormsModule, HttpModule,MatSnackBarModule,
+    ServiceWorkerModule.register('/ngsw-worker.js', {enabled: environment.production}),
+    FormsModule, HttpClientModule, MatSnackBarModule,
     RouterModule.forRoot(routes),
     BrowserModule, MatButtonModule, MatCardModule, MatSlideToggleModule, MatIconModule, MatInputModule,
     MatSelectModule, MatSliderModule, MatToolbarModule, BrowserAnimationsModule
