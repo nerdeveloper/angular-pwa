@@ -7,9 +7,24 @@
 
 "short_name": "Coffee App",
 "theme_color": "#472D21",
-"background_color": "#C0B764",
+"background_color": "#FFFFFF",
 "icons":[
-    
+    {
+    "src": "android_96.png",
+    "sizes": "96x96"
+    },
+    {
+        "src": "android_144.png",
+        "sizes": "144x144"
+        },
+        {
+            "src": "android_192.png",
+            "sizes": "192x192"
+            },
+            {
+                "src": "android_512.png",
+                "sizes": "512x512"
+                }
 ]
 
 }
