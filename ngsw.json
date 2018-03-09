@@ -7,7 +7,6 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/favicon.ico",
         "/index.html",
         "/manifest.json",
         "/inline.318b50c57b4eba3d437b.bundle.js",

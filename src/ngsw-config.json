@@ -37,7 +37,7 @@
                     "/favicon.ico",
                     "/index.html",
                     "/manifest.json",
-                    "!/ngsw-worker.js"
+                    "/ngsw-worker.js"
                 ],
                 "versionedFiles": [
                     "/*.bundle.css",
