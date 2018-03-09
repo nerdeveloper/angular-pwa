@@ -34,7 +34,6 @@
             "installMode": "prefetch",
             "resources": {
                 "files": [
-                    "/favicon.ico",
                     "/index.html",
                     "/manifest.json",
                     "/ngsw-worker.js"
