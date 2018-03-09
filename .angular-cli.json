@@ -12,7 +12,13 @@
         "icons",
         "manifest.json",
         "ngsw-config.json",
-        "ngsw-worker.js"
+        "ngsw-worker.js",
+
+        { 
+          "input": "../node_modules/@angular/service-worker",
+          "glob": "ngsw-worker.js",
+          "output": "./"
+        }
        
       ],
       "index": "index.html",

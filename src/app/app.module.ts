@@ -30,7 +30,7 @@ const routes: Routes = [
     CoffeeComponent,
   ],
   imports: [
-    ServiceWorkerModule.register('/ngsw-worker.js', {enabled: environment.production}),
+    ServiceWorkerModule.register('ngsw-worker.js', {enabled: environment.production}),
     FormsModule, HttpClientModule, MatSnackBarModule,
     RouterModule.forRoot(routes),
     BrowserModule, MatButtonModule, MatCardModule, MatSlideToggleModule, MatIconModule, MatInputModule,
