@@ -1,4 +1,12 @@
-# Mycoffeeapp
+ <h1 align="center">
+  <img src="https://github.com/paypal/glamorous/raw/master/other/logo/full.png" alt="glamorous" title="glamorous" width="200">
+  <br>
+  glamorous 💄
+  <br>
+</h1>
+<p align="center" style="font-size: 1.2rem;">Maintainable CSS with React</p>
+   
+   # Coffee App - An angular PWA
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/nerdeveloper/angular-pwa.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/nerdeveloper/angular-pwa.svg?branch=master)](https://travis-ci.org/nerdeveloper/angular-pwa)
@@ -6,28 +14,55 @@
 [![dependencies Status](https://david-dm.org/nerdeveloper/angular-pwa/status.svg)](https://david-dm.org/nerdeveloper/angular-pwa)
 [![devDependencies Status](https://david-dm.org/nerdeveloper/angular-pwa/dev-status.svg)](https://david-dm.org/nerdeveloper/angular-pwa?type=dev)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
+A Progressive web application built with Typescript to show performance and metrics and newer updates/releases in Angular. It has been tested and has hit the Progressive Web App Bench mark of 100% on **[Lighthouse.](https://developers.google.com/web/tools/lighthouse/)**
 
-## Development server
+## Demonstration
+The Angular PWA is hosted on **[Github Pages](https://nerdeveloper.github.io/angular-pwa)** and **[Microsoft Azure ](http://pwadb.azurewebsites.net)**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Installations
 
-## Code scaffolding
+This project assumes you have **[NodeJS v6](http://nodejs.org/)** or greater installed. You should
+also have [npm v3](https://www.npmjs.com/) or greater installed as well (this comes packaged
+with Node 8). You'll also need a recent version of **[Git](https://git-scm.com/)** installed
+as well.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Install the npm pachages globally
+```sh
+npm i -g @angular/cli
+npm i -g http-server
+```
 
-## Build
+## Basic Usage
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+```bash
+git clone https://github.com/nerdeveloper/angular-pwa.git
+cd angular-pwa
+npm i --save
+ng serve --prod -o
+```
 
-## Running unit tests
+## Advanced Usage
+Install the dependencies and devDependencies and start the server.
+```bash
+git clone https://github.com/nerdeveloper/angular-pwa.git
+cd angular-pwa
+npm i --save
+ng build --prod 
+cd dist
+http-server -p 8080
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Make me feel :heart: and appreciated
 
-## Further help
+You can :star: the repo | Tell your friends about it | Fork it and make Pull Request.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+You can also follow me on **[Twitter](https://twitter.com/_nerdeveloper)**
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE) for more information..
+## Other
+- There is a new release that the [Microsoft Edge for Android](https://blogs.windows.com/msedgedev/2018/02/06/welcoming-progressive-web-apps-edge-windows-10/) now run PWAs uisng [EgeHTML](https://blogs.windows.com/msedgedev/tag/edgehtml-17/) as an App Shell Wrapper. Feel free to use any Browswer that Support **Add to Home Screen** feature.
+- This Angular PWAs was developed following a course series on [Lynda.com](https://www.lynda.com/Angular-tutorials/Angular-Progressive-Web-Apps/590845-2.html?srchtrk=index%3a2%0alinktypeid%3a2%0aq%3aangular+pwa%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2)
