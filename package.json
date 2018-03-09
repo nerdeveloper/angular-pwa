@@ -10,7 +10,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "start:dev": "ng build --prod && cd dist && http-server -p 8080",
-    "commit": "git add . && git cz && git push -u origin master"
+    "commit": "git add . && git cz && git push -u origin master",
+    "publish": "ng build -prod --base-href 'https://nerdeveloper.github.io/angular-pwa/' && ngh" 
   },
   "private": true,
   "dependencies": {

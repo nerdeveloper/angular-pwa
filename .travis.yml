@@ -19,11 +19,5 @@ script:
 - npm install webpack@3.11.0 --save
 - npm run lint
 - npm run build 
- - npm install codecov -g
-
-after_success:
-  - npm i -g angular-cli-ghpages
-  - ng build --prod --base-href "https://nerdeveloper.github.io/angular-pwa/"
-  - ngh
 
     
