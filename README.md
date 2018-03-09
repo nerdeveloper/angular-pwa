@@ -2,6 +2,7 @@
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/nerdeveloper/angular-pwa.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/nerdeveloper/angular-pwa.svg?branch=master)](https://travis-ci.org/nerdeveloper/angular-pwa)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nerdeveloper/angular-pwa/blob/master/LICENSE)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
 
