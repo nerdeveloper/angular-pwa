@@ -1,11 +1,11 @@
 {
     "name": "Coffee App - Give your customers something to talk about",
-    "start_url": "https://nerdeveloper.github.io/angular-github/",
+    "start_url": "https://nerdeveloper.github.io/angular-pwa/",
     "orientation": "any",
     "scope": "/",
     "display": "standalone",
     "short_name": "Coffee App",
-    "theme_color": "#472D21",
+    "theme_color": "#9400d3",
     "background_color": "#FFFFFF",
     "icons": [
         {
