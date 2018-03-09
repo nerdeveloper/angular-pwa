@@ -2,6 +2,8 @@
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
 
 body{
-    background: linear-gradient(45deg, red, blue);
+    background: darkviolet;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
 }
