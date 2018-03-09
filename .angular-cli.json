@@ -13,6 +13,7 @@
         "manifest.json",
         "ngsw-config.json",
         "ngsw-worker.js",
+        "default.vcl",
 
         { 
           "input": "../node_modules/@angular/service-worker",
