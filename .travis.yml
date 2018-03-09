@@ -1,31 +1,4 @@
-# sudo: required
-# dist: trusty
-# addons:
-#   chrome: stable
-# language: node_js
-# node_js:
-#   - "9"
-# cache:
-#   directories:
-#     - node_modules
-# branches:
-#   only:
-#     - master
-# notifications:
-#   email: true
 
-# before_script:
-#   - npm prune
-#   - "sh -e /etc/init.d/xvfb start"
-#   - sleep 3 # give xvfb some time to start
-
-  
-# script:
-#   - xvfb-run npm run e2e
-#    - npm run lint
-#    - npm run test
-# after_success:
-#   - npm run build
 sudo: false
 language: node_js
 node_js:
@@ -46,3 +19,5 @@ script:
 - npm install webpack@3.11.0 --save
 - npm run lint
 - npm run build 
+ - npm install codecov -g
+ 

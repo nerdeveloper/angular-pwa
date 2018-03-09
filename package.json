@@ -9,8 +9,6 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "test:once": "ng test --watch=false",
-    "ci": "npm run lint && npm run test:once && npm run e2e",
     "start:dev": "ng build --prod && cd dist && http-server -p 8080",
     "commit": "git add . && git cz && git push -u origin master"
   },
