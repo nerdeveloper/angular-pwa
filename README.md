@@ -1,10 +1,10 @@
  <h1 align="center">
   <img src="https://github.com/paypal/glamorous/raw/master/other/logo/full.png" alt="glamorous" title="glamorous" width="200">
   <br>
-  glamorous 💄
+  Coffee App
   <br>
 </h1>
-<p align="center" style="font-size: 1.2rem;">Maintainable CSS with React</p>
+<p align="center" style="font-size: 1.2rem;">Coffee App - Angular 5 PWA</p>
    
    # Coffee App - An angular PWA
 
