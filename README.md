@@ -1,5 +1,5 @@
  <h1 align="center">
-  <img src="https://github.com/paypal/glamorous/raw/master/other/logo/full.png" alt="glamorous" title="glamorous" width="200">
+  <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/coffee.png" alt="coffeeapp" title="coffee App" width="200">
   <br>
   Coffee App
   <br>
