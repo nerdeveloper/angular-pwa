@@ -1,6 +1,6 @@
 {
     "name": "Coffee App - Give your customers something to talk about",
-    "start_url": "/",
+    "start_url": "https://nerdeveloper.github.io/angular-github/",
     "orientation": "any",
     "scope": "/",
     "display": "standalone",
