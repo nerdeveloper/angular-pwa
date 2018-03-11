@@ -19,12 +19,19 @@ A Progressive web application built with Typescript to show performance and metr
 ## Demonstration
 The Angular PWA is hosted on **[Github Pages](https://nerdeveloper.github.io/angular-pwa)** and **[Microsoft Azure](http://pwadb.azurewebsites.net/coffee)**
 
-## Performance, Metrics and Showcase
+## Performance and Metrics
 <h2>
-  <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/lighthouse.png" alt="Lighthouse perf" title="Light house" width="150">
-  <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/webtest.png" alt="Web page perf test" title="Web page Perf test" width="150">
+  <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/lighthouse.png" alt="Lighthouse perf" title="Light house">
+  <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/webtest.png" alt="Web page perf test" title="Web page Perf test">
+  </h2>
+
+  ## Showcase
+  <h2>
+
   <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/edge_2.jpg" alt="Install PWA" title="Install PWA" width="150">
-  <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/edge_2.jpg" alt="Add to home screen feature" title="Microsoft edge *Add to home screen* feature" width="150">
+  <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/edge_3.jpg" alt="Add to home screen feature" title="Microsoft edge *Add to home screen* feature" width="150">
+  </h2>
+
 
 ## Installations
 
