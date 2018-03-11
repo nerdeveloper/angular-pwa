@@ -30,7 +30,7 @@ callback(null);
     if (/iPad|iPhone|iPod/.test(navigator.userAgent)) {
       return `https://maps.apple.com/?=${query}`;
     } else {
-     return `https://maps.google.com/?=${query}`;
+     return `https://google.com/maps/?=${query}`;
     }
   }
 }

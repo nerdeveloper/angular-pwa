@@ -15,7 +15,7 @@ export class CoffeeComponent implements OnInit {
   tastingEnabled = false;
   coffee: Coffee;
   types = ['Brustino', 'Nigerianno', 'Americano', 'Mexicanno', 'Icelanno'];
-  constructor(private geNololocation: GeolocationService,
+  constructor(private geolocation: GeolocationService,
     private router: Router, private data: DataService, private activated: ActivatedRoute) { }
 
 
@@ -52,7 +52,7 @@ export class CoffeeComponent implements OnInit {
     });
 
 
-    this.gelolocation.requestLocation(location => {
+    this.geolocation.requestLocation(location => {
       if (location) {
         this.coffee.location.latitude = location.latitude;
         this.coffee.location.longitude = location.longitude;
