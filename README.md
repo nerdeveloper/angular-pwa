@@ -19,7 +19,7 @@ A Progressive web application built with Typescript to show performance and metr
 ## Demonstration
 The Angular PWA is hosted on **[Github Pages](https://nerdeveloper.github.io/angular-pwa)** and **[Microsoft Azure](http://pwadb.azurewebsites.net/coffee)**
 
-## Perfomance, Metrics and Showcase
+## Performance, Metrics and Showcase
 <h2>
   <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/lighthouse.png" alt="Lighthouse perf" title="Light house" width="150">
   <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/webtest.png" alt="Web page perf test" title="Web page Perf test" width="150">
