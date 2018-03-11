@@ -22,15 +22,16 @@ The Angular PWA is hosted on **[Github Pages](https://nerdeveloper.github.io/ang
 ## Performance and Metrics
 <h2>
   <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/lighthouse.png" alt="Lighthouse perf" title="Light house PWA test" width="500" >
+  <br />
+  <br />
   <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/webtest.png" alt="Web page perf test" title="Web page Perf test" width="500">
   </h2>
 
   ## Showcase
   <h2>
 
-  <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/edge_2.jpg" alt="Install PWA" title="Install PWA" width="150">
-  <br />
-  <br />
+  <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/edge_2.jpg" alt="Install PWA" title="Install PWA" width="150">&nbsp;&nbsp;&nbsp;
+  
   <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/edge_3.jpg" alt="Add to home screen feature" title="Microsoft edge *Add to home screen* feature" width="150">
   </h2>
 
