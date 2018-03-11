@@ -64,5 +64,5 @@ You can also follow me on **[Twitter](https://twitter.com/_nerdeveloper)**
 
 The MIT License (MIT). Please see [License File](LICENSE) for more information..
 ## Other
-- There is a new release that the [Microsoft Edge for Android and iOS ](https://blogs.windows.com/msedgedev/2018/02/06/welcoming-progressive-web-apps-edge-windows-10/) now run PWAs using [EdgeHTML](https://blogs.windows.com/msedgedev/tag/edgehtml-17/) as an App Shell Wrapper. Feel free to use any Browser that Support **Add to Home Screen** feature.
+- There is a new release that the [Microsoft Edge for Android and iOS ](https://blogs.windows.com/msedgedev/2018/02/06/welcoming-progressive-web-apps-edge-windows-10/) now runs PWAs using [EdgeHTML](https://blogs.windows.com/msedgedev/tag/edgehtml-17/) as an App Shell Wrapper. Feel free to use any Browser that Support **Add to Home Screen** feature.
 - This Angular PWAs was developed following a course series on [Lynda.com](https://www.lynda.com/Angular-tutorials/Angular-Progressive-Web-Apps/590845-2.html?srchtrk=index%3a2%0alinktypeid%3a2%0aq%3aangular+pwa%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2)

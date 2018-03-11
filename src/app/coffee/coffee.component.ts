@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Coffee} from '../logic/coffee';
+import { Coffee } from '../logic/coffee';
 import { GeolocationService } from '../geolocation.service';
 import { TastingRating } from '../logic/tastingRating';
 import { Router, ActivatedRoute } from '@angular/router';
@@ -11,12 +11,12 @@ import { DataService } from '../data.service';
   styleUrls: ['./coffee.component.css']
 })
 export class CoffeeComponent implements OnInit {
- routeringPages: any;
- tastingEnabled = false;
+  routeringPages: any;
+  tastingEnabled = false;
   coffee: Coffee;
-  types = ['Espresso', 'Ristretto', 'Americano', 'Cappuccino', 'Frappe'];
-  constructor(private gelolocation: GeolocationService,
-  private router: Router, private data: DataService, private activated: ActivatedRoute) { }
+  types = ['Brustino', 'Nigerianno', 'Americano', 'Mexicanno', 'Icelanno'];
+  constructor(private geNololocation: GeolocationService,
+    private router: Router, private data: DataService, private activated: ActivatedRoute) { }
 
 
   tastingRatingChanged(checked: boolean) {
@@ -43,7 +43,7 @@ export class CoffeeComponent implements OnInit {
       console.log(params['id']);
       if (params['id']) {
         this.data.get(params['id'], response => {
-          this.coffee  = response;
+          this.coffee = response;
           if (this.coffee.tastingRating) {
             this.tastingEnabled = true;
           }
@@ -52,12 +52,12 @@ export class CoffeeComponent implements OnInit {
     });
 
 
-this.gelolocation.requestLocation(location => {
-  if (location) {
-    this.coffee.location.latitude = location.latitude;
-    this.coffee.location.longitude = location.longitude;
-  }
-});
+    this.gelolocation.requestLocation(location => {
+      if (location) {
+        this.coffee.location.latitude = location.latitude;
+        this.coffee.location.longitude = location.longitude;
+      }
+    });
   }
 
 }
