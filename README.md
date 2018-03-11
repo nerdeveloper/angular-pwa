@@ -21,8 +21,8 @@ The Angular PWA is hosted on **[Github Pages](https://nerdeveloper.github.io/ang
 
 ## Performance and Metrics
 <h2>
-  <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/lighthouse.png" alt="Lighthouse perf" title="Light house PWA test">
-  <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/webtest.png" alt="Web page perf test" title="Web page Perf test">
+  <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/lighthouse.png" alt="Lighthouse perf" title="Light house PWA test" width="500" >
+  <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/webtest.png" alt="Web page perf test" title="Web page Perf test" width="500">
   </h2>
 
   ## Showcase
