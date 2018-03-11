@@ -29,9 +29,7 @@ The Angular PWA is hosted on **[Github Pages](https://nerdeveloper.github.io/ang
 
   ## Showcase
   <h2>
-
-  <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/edge_2.jpg" alt="Install PWA" title="Install PWA" width="150">&nbsp;&nbsp;&nbsp;
-  
+<img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/edge_2.jpg" alt="Install PWA" title="Install PWA" width="150">&nbsp;
   <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/edge_3.jpg" alt="Add to home screen feature" title="Microsoft edge *Add to home screen* feature" width="150">
   </h2>
 
