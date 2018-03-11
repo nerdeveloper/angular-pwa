@@ -37,14 +37,14 @@ The Angular PWA is hosted on **[Github Pages](https://nerdeveloper.github.io/ang
 ## Installations
 
 This project assumes you have **[NodeJS v6](http://nodejs.org/)** or greater installed. You should
-also have [npm v3](https://www.npmjs.com/) or greater installed as well (this comes packaged
+also have [npm v5](https://www.npmjs.com/) or greater installed as well (this comes packaged
 with Node 8). You'll also need a recent version of **[Git](https://git-scm.com/)** installed
 as well.
 
 Install the npm pachages globally
 ```sh
-npm i -g @angular/cli
-npm i -g http-server
+npx i -g @angular/cli
+npx i -g http-server
 ```
 
 ## Basic Usage
