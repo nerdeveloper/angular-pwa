@@ -17,12 +17,14 @@
 A Progressive web application built with Typescript to show performance and metrics and new updates/releases in Angular. It has been tested and has hit the Progressive Web App Bench mark of 100% on **[Lighthouse.](https://developers.google.com/web/tools/lighthouse/)**
 
 ## Demonstration
-The Angular PWA is hosted on **[Github Pages](https://nerdeveloper.github.io/angular-pwa)** and **[Microsoft Azure](http://pwadb.azurewebsites.net)**
+The Angular PWA is hosted on **[Github Pages](https://nerdeveloper.github.io/angular-pwa)** and **[Microsoft Azure](http://pwadb.azurewebsites.net/coffee)**
 
-##Perfomance and Metrics
-<h2 align="center">
-  <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/coffee.png" alt="coffeeapp" title="coffee App" width="150">
-  <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/coffee.png" alt="coffeeapp" title="coffee App" width="150"><img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/coffee.png" alt="coffeeapp" title="coffee App" width="150">
+## Perfomance, Metrics and Showcase
+<h2>
+  <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/lighthouse.png" alt="Lighthouse perf" title="Light house" width="150">
+  <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/webtest.png" alt="Web page perf test" title="Web page Perf test" width="150">
+  <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/edge_2.jpg" alt="Install PWA" title="Install PWA" width="150">
+  <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/edge_2.jpg" alt="Add to home screen feature" title="Microsoft edge *Add to home screen* feature" width="150">
 
 ## Installations
 
