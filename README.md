@@ -19,6 +19,11 @@ A Progressive web application built with Typescript to show performance and metr
 ## Demonstration
 The Angular PWA is hosted on **[Github Pages](https://nerdeveloper.github.io/angular-pwa)** and **[Microsoft Azure](http://pwadb.azurewebsites.net)**
 
+##Perfomance and Metrics
+<h2 align="center">
+  <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/coffee.png" alt="coffeeapp" title="coffee App" width="150">
+  <img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/coffee.png" alt="coffeeapp" title="coffee App" width="150"><img src="https://github.com/nerdeveloper/angular-pwa/blob/master/screens/coffee.png" alt="coffeeapp" title="coffee App" width="150">
+
 ## Installations
 
 This project assumes you have **[NodeJS v6](http://nodejs.org/)** or greater installed. You should
