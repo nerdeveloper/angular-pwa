@@ -43,8 +43,8 @@ as well.
 
 Install the npm pachages globally
 ```sh
-npx i -g @angular/cli
-npx i -g http-server
+npx i @angular/cli
+npx i http-server
 ```
 
 ## Basic Usage
