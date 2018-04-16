@@ -17,7 +17,7 @@ script:
 # - npm uninstall webapack --save
 # - npm remove webpack
 # - npm install webpack@3.11.0 --save
-- npm run lint
+- ng lint
 - npm run build 
 
     
