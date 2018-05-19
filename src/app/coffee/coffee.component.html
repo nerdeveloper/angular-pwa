@@ -3,33 +3,33 @@
     <mat-card-title>
       Basic Coffee Information
     </mat-card-title>
-    <mat-input-container>
+    <mat-form-field>
       <input matInput placeholder="Coffee Name" name="name" [(ngModel)]="coffee.name">
-    </mat-input-container>
+    </mat-form-field>
 
-    <mat-input-container>
+    <mat-form-field>
       <input matInput placeholder="Place Name" name="place" [(ngModel)]="coffee.place">
-    </mat-input-container>
+    </mat-form-field>
   </mat-card>
   <mat-card>
     <mat-card-title>
       Place Information
     </mat-card-title>
-    <mat-input-container>
+    <mat-form-field>
       <input matInput placeholder="Address" name="address" [(ngModel)]="coffee.location.address">
-    </mat-input-container>
+    </mat-form-field>
 
-    <mat-input-container>
+    <mat-form-field>
       <input matInput placeholder="City" name="city" [(ngModel)]="coffee.location.city">
-    </mat-input-container>
+    </mat-form-field>
 
-    <mat-input-container>
+    <mat-form-field>
       <mat-select [(ngModel)]="coffee.type" placeholder="Coffee Type" name="type">
         <mat-option *ngFor="let type of types" [value]="type">
           {{ type }}
         </mat-option>
       </mat-select>
-    </mat-input-container>
+    </mat-form-field>
   </mat-card>
 
   <mat-card>
@@ -64,9 +64,9 @@
   </mat-card>
 
   <mat-card>
-    <mat-input-container>
+    <mat-form-field>
       <textarea matInput placeholder="Notes" name="notes" [(ngModel)]="coffee.notes"></textarea>
-    </mat-input-container>
+    </mat-form-field>
   </mat-card>
   <mat-card>
     <button mat-raised-button (click)="cancel()">Cancel</button>

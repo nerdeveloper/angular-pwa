@@ -4,7 +4,7 @@
   Coffee App
   <br>
 </h1>
-<p align="center" style="font-size: 1.2rem;">Coffee App - Angular 5 PWA</p>
+<p align="center" style="font-size: 1.2rem;">Coffee App - Angular 6 PWA</p>
    
    # Coffee App - An angular PWA
 

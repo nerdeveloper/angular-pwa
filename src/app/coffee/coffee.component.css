@@ -1,7 +1,7 @@
 mat-card{
     margin: 20px;
 }
-mat-input-container, mat-select{
+mat-form-field, mat-select{
     width: 100%
 }
 mat-card-title{
