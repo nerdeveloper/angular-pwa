@@ -3,6 +3,8 @@ sudo: false
 language: node_js
 node_js:
   - "8"
+  - "9"
+  - "10"
 
 
 
@@ -14,9 +16,7 @@ cache:
   - npm prune
   
 script:
-# - npm uninstall webapack --save
-# - npm remove webpack
-# - npm install webpack@3.11.0 --save
+
 - ng lint
 - npm run build 
 
