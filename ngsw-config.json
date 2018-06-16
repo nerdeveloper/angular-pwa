@@ -21,7 +21,7 @@
         "https://fonts.googleapis.com/**",
         "https://fonts.gstatic.com/**",
         "https://pwadb.azurewebsites.net/**",
-        "https://ngpwa.azurewebsites.net/**"
+        "https://ngpwa-9f940.firebaseapp.com/"
       
       ]
     }
@@ -32,9 +32,9 @@
       "urls": [],
       "cacheConfig": {
         "strategy": "freshness",
-        "maxSize": 50,
-        "maxAge": "30m",
-        "timeout": "5s"
+        "maxSize": 100,
+        "maxAge": "3d",
+        "timeout": "1m"
       }
     }
   ]

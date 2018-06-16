@@ -5,6 +5,13 @@
 /dist-server
 /tmp
 /out-tsc
+/public 
+
+#Firebase
+firebase.json
+.firebaserc
+
+
 
 # dependencies
 /node_modules
@@ -15,6 +22,8 @@
 .classpath
 .c9/
 *.launch
+
+# System Files
 .settings/
 *.sublime-workspace
 
