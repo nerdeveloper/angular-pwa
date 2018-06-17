@@ -20,8 +20,7 @@
       "urls": [
         "https://fonts.googleapis.com/**",
         "https://fonts.gstatic.com/**",
-        "https://pwadb.azurewebsites.net/**",
-        "https://ngpwa-9f940.firebaseapp.com/"
+        "https://pwadb.azurewebsites.net/**"
       
       ]
     }
