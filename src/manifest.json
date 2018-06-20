@@ -1,6 +1,6 @@
 {
     "name": "Coffee App - Give your customers something to talk about",
-    "start_url": "https://nerdeveloper.github.io/angular-pwa/",
+    "start_url": "https://ngpwa-9f940.firebaseapp.com/",
     "orientation": "any",
     "scope": "/",
     "display": "standalone",
