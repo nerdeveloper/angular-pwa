@@ -12,7 +12,7 @@
     "start:dev": "ng build --prod && cd dist && http-server -p 8080",
     "commit": "git add . && git cz && git push -u origin master",
     "publish": "ng build --prod --base-href 'https://ngpwa-9f940.firebaseapp.com/' && firebase init && firebase deploy",
-    "publish:prod": "git add . && git cz && git push -u origin master && ng build --prod --base-href 'https://ngpwa-9f940.firebaseapp.com/' && firebase init && firebase deploy"
+    "deploy": "git add . && git cz && git push -u origin master && ng build --prod --base-href 'https://ngpwa-9f940.firebaseapp.com/' && firebase init && firebase deploy"
   },
   "private": true,
   "dependencies": {
