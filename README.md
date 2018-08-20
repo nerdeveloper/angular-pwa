@@ -17,7 +17,7 @@
 A Progressive web application built with Typescript to show performance and metrics and new updates/releases in Angular. It has been tested and has hit the Progressive Web App Bench mark of 100% on **[Lighthouse.](https://developers.google.com/web/tools/lighthouse/)**
 
 ## Demonstration
-The Angular PWA is hosted on **[Microsoft Azure](https://angular-pwa.azurewebsites.net)** and **[Microsoft Azure DB](http://pwadb.azurewebsites.net/coffee)**
+The Angular PWA is hosted on **[Google Firebase](https://ngpwa-9f940.firebaseapp.com)** and **[Microsoft Azure DB](http://pwadb.azurewebsites.net/coffee)**
 
 ## Performance and Metrics
 <h2>

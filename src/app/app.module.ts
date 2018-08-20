@@ -31,7 +31,7 @@ const routes: Routes = [
   imports: [
     ServiceWorkerModule.register('ngsw-worker.js', {enabled: environment.production}),
     FormsModule, HttpClientModule, MatSnackBarModule,
-    RouterModule.forRoot(routes),
+    RouterModule.forRoot(routes, {useHash: false}),
     BrowserModule, MatButtonModule, MatCardModule, MatSlideToggleModule, MatIconModule, MatInputModule,
     MatSelectModule, MatSliderModule, MatToolbarModule, BrowserAnimationsModule
   ],
